@@ -1,23 +1,26 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+<section flex=100 layout="row" ng-controller='MainCtrl'>
+  <md-card flex=100>
+    <md-card-header>
+      <md-card-avatar>
+        <md-icon md-font-set="material-icons">school</md-icon>
+      </md-card-avatar>
+      <md-card-header-text>
+        <span class="md-title">Bio</span>
+        <span class="md-subhead">subhead</span>
+      </md-card-header-text>
+    </md-card-header>
+    <img src="http://dummyimage.com/500x260/000/FFF.png" class="md-card-image" alt="Washed Out">
+    <md-card-content>
+      <md-list>
+        <md-list-item class="md-3-line" ng-repeat="item in info.education">
+          <div class="md-list-item-text">
+            <h3>{{item.schoolName}}</h3>
+            <h4>{{item.startYear}}-{{item.endYear}}</h4>
+            <h4>{{item.description}}</h4>
+          </div>
+          <md-divider ng-if="!$last"></md-divider>
+        </md-list-item>
+      </md-list>
+    </md-card-content>
+  </md-card>
 </div>
