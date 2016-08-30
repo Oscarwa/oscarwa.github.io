@@ -5,10 +5,99 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <style>
+      * {
+        color: #FFFFFF;
+        font-size: 24px;
+      }
+      body {
+        background-color: #000000;
+        background-image: url("http://www.warnerbros.com/archive/spacejam/movie/img/bg_stars.gif");
+        text-align: center;
+      }
+      table {
+        margin: 30px auto;
+      }
+      tr {
+        vertical-align: middle;
+      }
+      .table_header th {
+        font-size: 42px;
+      }
+      .projects {
+
+      }
+    </style>
   </head>
+
+
   <body ng-app="oscarApp">
-    <script>
-      //window.location.replace('/dist');
-    </script>
-</body>
+    <img src="/app/images/welcome2.gif">
+    <table border=1>
+      <thead>
+        <tr class="table_header">
+          <th>
+            <img src="/app/images/genie.gif" />
+          </th>
+          <th>
+            Oscar Barba - Software Engineer
+          </th>
+          <th>
+            <img src="/app/images/genie.gif" />
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">
+            <img src="/app/images/news.gif" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <ul>
+              <li>
+                No news at the moment
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="/app/images/at.gif" width="140px" />
+          </td>
+          <td>
+            My github projects
+          </td>
+          <td>
+            <img src="/app/images/at.gif" width="140px" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <ul class="projects">
+              <li>
+                <a href="/dist">
+                  <img src="/app/images/arrow1.gif" />
+                  <span>My profile page </span>
+                  <img src="/app/images/arrow.gif"/>
+                </a>
+              </li>
+              <li>
+                <a href="/gas-counter/app/">
+                  <img src="/app/images/arrow1.gif" />
+                  Gas tracker
+                  <img src="/app/images/arrow.gif" />
+                </a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <img src="/app/images/internet_party.gif" width="200px" />
+    <br/>
+    <a href="http://www.freecounterstat.com" title="website counter"><img src="http://counter5.01counter.com/private/freecounterstat.php?c=cc929e754ef17c85465fe17607ee6be3" border="0" title="website counter" alt="website counter"></a>
+
+  </body>
 </html>
