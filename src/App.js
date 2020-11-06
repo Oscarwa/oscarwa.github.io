@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import ReactGA from 'react-ga';
-import './App.css';
+import ReactGA from 'react-ga';
+// import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -18,8 +18,8 @@ class App extends Component {
       resumeData: {}
     };
 
-    // ReactGA.initialize('UA-110570651-1');
-    // ReactGA.pageview(window.location.pathname);
+    ReactGA.initialize('UA-51866214-1');
+    ReactGA.pageview(window.location.pathname);
 
   }
 
