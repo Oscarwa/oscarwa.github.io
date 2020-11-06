@@ -4,16 +4,16 @@
     "occupation":"Fullstack Software Engineer",
     "bio":"I have a great passion for technology that was born thanks to video games that I still enjoy. I like to build things, especially DIY projects. There's nothing better than breathing fresh air on top of a mountain, which is why I love hiking, biking, running, and exercising outdoors. I also enjoy coding as a hobby and participating in hackathons",
     "image":"profilepic",
-    "description":"I have over 10 years of experience developing Enterprise applications. I consider myself an experienced, self-motivated, result-driven, flexible professional with a passion for programming who specializes in turning business ideas into software solutions",
+    "description":"I consider myself an experienced, self-motivated, result-driven, flexible professional with a passion for programming who specializes in turning business ideas into software solutions. I have over 10 years of experience developing Enterprise applications.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "oscarbarbaa@gmail.com",
-    "phone": "555-555-5555",
+    "phone": "",
     "address":{
       "city":"Monterrey",
       "state":"Nuevo León",
       "country": "México"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "https://oscarwa.github.io",
     "resumedownload":"https://docs.google.com/document/d/1LEI8ZQ70Gjaisazan9TtOKiEqCkEo-tk857I9I4VOrE/export?format=pdf",
     "social":[
       {
@@ -140,12 +140,8 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"",
+        "user":""
       }
     ]
   }
