@@ -140,8 +140,9 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"",
-        "user":""
+        "textES":"Compromiso, experiencia y dedicacion es como describiria a Oscar Barba, un profesional que no solo ayuda a alcanzar las metas trazadas, si no tambien colabora a tener un gran ambiente de trabajo",
+        "textEN":"Commitment, experience and dedication is how I would describe Oscar Barba, a professional who not only helps to achieve the goals set, but also helps to have a great work environment",
+        "user":"Luis Morales (Software Tech Lead)"
       }
     ]
   }
