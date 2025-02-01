@@ -43,6 +43,14 @@
       }
     ],
     "work":[
+       {
+        "company":"Tone",
+        "title":"Software Engineer",
+        "from": "2022-07-18T00:00:00",
+        "to": "current",
+        "description": "Iteratively build services to gather data, process and calculate music royalties using Django and DRF; Maintain a high test coverage of our app using e2e and unit tests in both backend and frontend;",
+        "tools": ["Python", "Django", "React"]
+      },
       {
         "company":"Smagus LLC",
         "title":"Fullstack Software Engineer",
